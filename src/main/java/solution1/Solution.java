@@ -1,6 +1,6 @@
 package solution1;
 
-public class Solution {
+class Solution {
 
     int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
