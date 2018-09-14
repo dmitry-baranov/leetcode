@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Solution_Test {
+public class SolutionTest {
     private ListNode l1;
     private ListNode l2;
     private ListNode resultTest;
