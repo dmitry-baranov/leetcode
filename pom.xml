@@ -7,6 +7,7 @@
     <groupId>tsc.leetcode</groupId>
     <artifactId>leetcode</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -21,14 +22,12 @@
             <version>1.18.26 </version>
             <scope>provided</scope>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>31.1-jre</version>
         </dependency>
-
 
         <!-- test -->
         <dependency>

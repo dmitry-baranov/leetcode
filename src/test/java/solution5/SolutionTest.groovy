@@ -1,16 +1,16 @@
-package solution3
+package solution5
 
 import spock.lang.Specification
 
 class SolutionTest extends Specification {
 
+
     def solution = new Solution()
 
-    def "LengthOfLongestSubstring"() {
+    def "LongestPalindrome"() {
         when:
-        def result = solution.lengthOfLongestSubstring("abcabcbb")
+        def result = solution.longestPalindrome("cbbd")
         then:
-        result == 3
-
+        result == "bb"
     }
 }
